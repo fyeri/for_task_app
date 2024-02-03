@@ -51,7 +51,7 @@
 # ------------------------------------
 server "54.238.164.17",
   user: "ec2-user",
-  roles: %w{web app},
+  roles: %w{web db app},
   ssh_options: {
     user: "ec2-user", # overrides user setting above
     keys: %w(~/Downloads/dic_sample.pem),
